@@ -13,7 +13,10 @@ const IconWrapper = styled.span`
   }
 `;
 
+console.log(socialMediaLinks);
+
 export default function socialMedia(props) {
+  console.log(props);
   return (
     <div className="social-media-div">
       {socialMediaLinks.map((media, i) => {

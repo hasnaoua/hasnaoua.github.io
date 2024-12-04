@@ -17,7 +17,7 @@ class Educations extends Component {
           </Fade>
         </div>
         <div className="educations-body-div">
-          {degrees.map((degree, index) => (
+          {degrees.degrees.map((degree, index) => (
             // Use 'index' as key if degrees don't have unique IDs
             <DegreeCard key={index} degree={degree} theme={theme} />
           ))}

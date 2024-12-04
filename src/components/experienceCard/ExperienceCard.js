@@ -8,6 +8,9 @@ class ExperienceCard extends Component {
     const index = this.props.index;
     const totalCards = this.props.totalCards;
     const theme = this.props.theme;
+
+    console.log(experience.logo_path);
+
     return (
       <div
         className="experience-list-item"

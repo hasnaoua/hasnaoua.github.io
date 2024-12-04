@@ -6,6 +6,9 @@ class DegreeCard extends Component {
   render() {
     const degree = this.props.degree;
     const theme = this.props.theme;
+
+    console.log(degree.alt_name);
+
     return (
       <div className="degree-card">
         {degree.logo_path && (

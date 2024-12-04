@@ -9,7 +9,7 @@ class CompetitiveSites extends React.Component {
     return (
       <div className="competitive-sites-main-div">
         <ul className="dev-icons">
-          {logos.map((logo) => (
+          {logos?.competitiveSites.map((logo) => (
             <OverlayTrigger
               key={logo.siteName}
               placement="top"

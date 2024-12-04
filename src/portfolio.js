@@ -34,7 +34,7 @@ const socialMediaLinks = [
   {
     name: "Github",
     link: "https://github.com/hasniaui1019",
-    fontAwesomeIcon: "fa-github", 
+    fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
   },
   {
@@ -46,7 +46,7 @@ const socialMediaLinks = [
   {
     name: "Gmail",
     link: "mailto:abdelhayhasnaoui@gmail.com",
-    fontAwesomeIcon: "fa-envelope", 
+    fontAwesomeIcon: "fa-envelope",
     backgroundColor: "#D14836",
   },
 ];
@@ -153,9 +153,11 @@ const degrees = {
   degrees: [
     {
       title: "INP ENSIMAG",
-      subtitle: "Engineering Degree in Computer Science and Applied Mathematics",
+      subtitle:
+        "Engineering Degree in Computer Science and Applied Mathematics",
       logo_path: "ensimag_logo.svg",
-      alt_name: "École Nationale Supérieure d'Informatique et de Mathématiques Appliquées",
+      alt_name:
+        "École Nationale Supérieure d'Informatique et de Mathématiques Appliquées",
       duration: "2021 - 2024",
       descriptions: [
         "⚡ Acquired a solid foundation in computer science, including algorithms, data structures, and software development.",
@@ -199,6 +201,7 @@ const experience = {
           description:
             "Developed fabrication masks for electronic chips using Optical Proximity Correction (OPC) with deep learning techniques. Designed a Graph Neural Network (GNN) for node-level predictions.",
           color: "#ff6600",
+          logo_path: "google_logo.png",
         },
         {
           title: "Software Engineer Intern",
@@ -209,6 +212,7 @@ const experience = {
           description:
             "Developed a cost function modeling pipeline for protein and calcium-protein side chains. Automated report generation and improved molecule manipulation via API management.",
           color: "#34a853",
+          logo_path: "google_logo.png",
         },
       ],
     },
@@ -267,7 +271,6 @@ export const publicationsHeader = {
   title: "Publications",
   description: "Here are some of my selected publications.",
 };
-
 
 export {
   settings,
