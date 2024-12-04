@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
-import Button from "../../components/button/Button";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
@@ -44,15 +43,6 @@ class Projects extends Component {
         <div className="repo-cards-div-main">
           {/* Add logic here to map over project data and render project cards */}
         </div>
-
-        {/* Button for External Links (e.g., GitHub Profile) */}
-        <Button
-          text="More Projects"
-          className="project-button"
-          href="#" // Replace with the desired link
-          newTab={true}
-          theme={theme}
-        />
 
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
