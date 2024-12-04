@@ -26,7 +26,6 @@ const greeting = {
     "A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/14Jvg4JVdG3rBQfityFP8MtLfygxZQhQL/view?usp=drive_link",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/hasniaui1019",
 };
 
@@ -103,10 +102,9 @@ const skills = {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
+        "⚡ Experience working on Azure cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Deploying deep learning models on cloud",
       ],
       softwareSkills: [
         {
@@ -128,13 +126,6 @@ const skills = {
           fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
-          style: {
-            color: "#47A248",
           },
         },
         {
@@ -201,7 +192,7 @@ const experience = {
           description:
             "Developed fabrication masks for electronic chips using Optical Proximity Correction (OPC) with deep learning techniques. Designed a Graph Neural Network (GNN) for node-level predictions.",
           color: "#ff6600",
-          logo_path: "google_logo.png",
+          logo_path: "STMicroelectronics_Logo.png",
         },
         {
           title: "Software Engineer Intern",
@@ -212,7 +203,7 @@ const experience = {
           description:
             "Developed a cost function modeling pipeline for protein and calcium-protein side chains. Automated report generation and improved molecule manipulation via API management.",
           color: "#34a853",
-          logo_path: "google_logo.png",
+          logo_path: "INRAE_LOGO.jpg",
         },
       ],
     },
@@ -249,12 +240,12 @@ const contactPageData = {
 export const competitiveSites = {
   competitiveSites: [
     {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
+      siteName: "Kaggle",
+      iconifyClassname: "simple-icons:kaggle",
       style: {
-        color: "#2EC866",
+        color: "#20BEFF",
       },
-      profileLink: "https://www.hackerrank.com/username",
+      profileLink: "https://www.kaggle.com/laymanbrother",
     },
     {
       siteName: "LeetCode",
