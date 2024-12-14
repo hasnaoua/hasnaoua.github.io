@@ -26,13 +26,13 @@ const greeting = {
     "A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/14Jvg4JVdG3rBQfityFP8MtLfygxZQhQL/view?usp=drive_link",
-  githubProfile: "https://github.com/hasniaui1019",
+  githubProfile: "https://github.com/hasnaoua/",
 };
 
 const socialMediaLinks = [
   {
     name: "Github",
-    link: "https://github.com/hasniaui1019",
+    link: "https://github.com/hasnaoua/",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
   },
@@ -217,18 +217,6 @@ const projectsHeader = {
   avatar_image_path: "projects_image.svg",
 };
 
-const publications = {
-  data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-  ],
-};
-
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
@@ -272,6 +260,5 @@ export {
   degrees,
   experience,
   projectsHeader,
-  publications,
   contactPageData,
 };
