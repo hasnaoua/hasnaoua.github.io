@@ -1,9 +1,11 @@
 import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
+import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import TopButton from "../../components/topButton/TopButton";
 import { Fade } from "react-reveal";
 import { projectsHeader } from "../../portfolio.js";
+import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -38,7 +40,11 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-
+        <div className="repo-cards-div-main">
+          {ProjectsData.data.map((repo) => {
+            return <GithubRepoCard repo={repo} theme={theme} />;
+          })}
+        </div>
         {/* Projects Section Template */}
         <div className="repo-cards-div-main">
           {/* Add logic here to map over project data and render project cards */}
