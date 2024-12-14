@@ -1,7 +1,5 @@
 .contact-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100vw;
   padding: 20px;
   background-color: var(--background); /* Ensure this matches your theme */
 }
@@ -30,6 +28,9 @@
 }
 
 .resume-btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 20px 0; /* Add spacing above and below the button */
 }
 
@@ -40,19 +41,4 @@
   color: var(--secondaryText); /* Match the footer text with theme */
 }
 
-.header-main {
-  position: relative; /* Or static if fixed positioning isn't necessary */
-  width: 100%;
-  padding: 20px 40px; /* Adjust spacing for proper alignment */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
-  background-color: var(--background); /* Matches theme */
-  z-index: 10; /* Avoid overlaps */
-}
-
-.header-items {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; /* Ensure proper spacing */
-  height: 100%; /* Maintain alignment with rest of layout */
-}
 

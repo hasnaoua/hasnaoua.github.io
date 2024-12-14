@@ -8,7 +8,10 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
-const ContactData = contactPageData.contactSection || { title: "", description: "" };
+const ContactData = contactPageData.contactSection || {
+  title: "",
+  description: "",
+};
 
 class Contact extends Component {
   render() {
