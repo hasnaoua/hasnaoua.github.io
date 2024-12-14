@@ -17,19 +17,6 @@ export default class Main extends Component {
     return (
       <BrowserRouter basename="/">
         <Switch>
-          {/* Conditional Splash or Home route */}
-          <Route
-            path="/"
-            exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={theme} />
-              ) : (
-                <Home {...props} theme={theme} />
-              )
-            }
-          />
-
           {/* Main Routes */}
           <Route
             path="/home"
@@ -55,14 +42,6 @@ export default class Main extends Component {
             path="/projects"
             render={(props) => <Projects {...props} theme={theme} />}
           />
-
-          {/* Optional Splash Screen Route */}
-          {settings.isSplash && (
-            <Route
-              path="/splash"
-              render={(props) => <Splash {...props} theme={theme} />}
-            />
-          )}
 
           {/* Fallback Route */}
           <Route
