@@ -22,6 +22,8 @@
 }
 
 .heading-text-div {
+  display: flex;
+  align-items: center;
   text-align: center;
 }
 
@@ -31,12 +33,12 @@
 }
 
 .heading-text {
+  flex: 1;
   font-size: 56px;
   font-weight: 400;
   font-family: "Google Sans Medium";
   line-height: 1.1;
   text-align: center;
-  margin-top: 100px;
 }
 
 .heading-sub-text {
