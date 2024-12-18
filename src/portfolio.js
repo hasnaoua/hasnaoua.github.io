@@ -35,18 +35,21 @@ const socialMediaLinks = [
     link: "https://github.com/hasnaoua/",
     fontAwesomeIcon: "fa-github",
     backgroundColor: "#181717",
+    type: "brands",
   },
   {
     name: "LinkedIn",
     link: "https://www.linkedin.com/in/abdelhay-hasnaoui-081309226/",
     fontAwesomeIcon: "fa-linkedin-in",
     backgroundColor: "#0077B5",
+    type: "brands",
   },
   {
     name: "Gmail",
     link: "mailto:abdelhayhasnaoui@gmail.com",
     fontAwesomeIcon: "fa-envelope",
     backgroundColor: "#D14836",
+    type: "solid",
   },
 ];
 
