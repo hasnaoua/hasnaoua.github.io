@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d819850f.chunk.css",
-    "main.js": "/static/js/main.d9d1fe7b.chunk.js",
-    "main.js.map": "/static/js/main.d9d1fe7b.chunk.js.map",
+    "main.css": "/static/css/main.80825767.chunk.css",
+    "main.js": "/static/js/main.ac1775e4.chunk.js",
+    "main.js.map": "/static/js/main.ac1775e4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9c42af47.js",
     "runtime-main.js.map": "/static/js/runtime-main.9c42af47.js.map",
-    "static/js/2.91d643b0.chunk.js": "/static/js/2.91d643b0.chunk.js",
-    "static/js/2.91d643b0.chunk.js.map": "/static/js/2.91d643b0.chunk.js.map",
+    "static/js/2.4d7e90ee.chunk.js": "/static/js/2.4d7e90ee.chunk.js",
+    "static/js/2.4d7e90ee.chunk.js.map": "/static/js/2.4d7e90ee.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e93018aa248823c959f46e7bd9c4a7d8.js": "/precache-manifest.e93018aa248823c959f46e7bd9c4a7d8.js",
+    "precache-manifest.39ffd44e2c5c3c2926accbb43ad05f24.js": "/precache-manifest.39ffd44e2c5c3c2926accbb43ad05f24.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d819850f.chunk.css.map": "/static/css/main.d819850f.chunk.css.map",
+    "static/css/main.80825767.chunk.css.map": "/static/css/main.80825767.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/INRAE_LOGO.jpg": "/static/media/INRAE_LOGO.7ffd952d.jpg",
     "static/media/STMicroelectronics_Logo.png": "/static/media/STMicroelectronics_Logo.d5a33b98.png",
@@ -57,8 +57,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9c42af47.js",
-    "static/js/2.91d643b0.chunk.js",
-    "static/css/main.d819850f.chunk.css",
-    "static/js/main.d9d1fe7b.chunk.js"
+    "static/js/2.4d7e90ee.chunk.js",
+    "static/css/main.80825767.chunk.css",
+    "static/js/main.ac1775e4.chunk.js"
   ]
 }
