@@ -3,9 +3,7 @@ import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
 import Educations from "../../containers/education/Educations";
-import CompetitiveSites from "../../components/competitiveSites/CompetitiveSites";
 import EducationImg from "./EducationImg";
-import { competitiveSites } from "../../portfolio"; // Ensure competitiveSites is properly exported from portfolio.js
 import "./EducationComponent.css";
 import { Fade } from "react-reveal";
 

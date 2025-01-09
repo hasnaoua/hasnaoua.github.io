@@ -1,4 +1,4 @@
-/* Change this file to get your personal Portfolio */
+/* */
 
 // Website related settings
 const settings = {
@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end-to-end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/14Jvg4JVdG3rBQfityFP8MtLfygxZQhQL/view?usp=drive_link",
+    "https://drive.google.com/file/d/1EpzfDDSExX15znI6q0mUi0qGwd-cq4qw/view?usp=sharing",
   githubProfile: "https://github.com/hasnaoua/",
 };
 
@@ -226,32 +226,6 @@ const contactPageData = {
     description:
       "I am available on Email/LinkedIn. You can message me; I will reply within 24 hours.",
   },
-};
-
-export const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#FFA116",
-      },
-      profileLink: "https://leetcode.com/username",
-    },
-  ],
-};
-
-export const publicationsHeader = {
-  title: "Publications",
-  description: "Here are some of my selected publications.",
 };
 
 export {
