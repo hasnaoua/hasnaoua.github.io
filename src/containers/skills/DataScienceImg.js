@@ -3,7 +3,6 @@ import dataScienceImg from "../../assets/images/data_science.svg";
 
 export default class DataScienceImg extends Component {
   render() {
-    const theme = this.props.theme;
     return (
       <img
         src={dataScienceImg}

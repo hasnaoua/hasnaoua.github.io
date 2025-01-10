@@ -3,7 +3,6 @@ import cloudInfrastructure from "../../assets/images/cloud_infrastructure.svg";
 
 export default class CloudInfraImg extends Component {
   render() {
-    const theme = this.props.theme;
     return (
       <img
         src={cloudInfrastructure}
